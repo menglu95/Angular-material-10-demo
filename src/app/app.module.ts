@@ -6,9 +6,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { MatButtonModule } from '@angular/material/button';
 import { MaterialModule } from './material/material.module';
+import { ToggleBtnComponent } from './toggle-btn/toggle-btn.component';
+import { TypographyComponent } from './typography/typography.component';
+import { BtnComponent } from './btn/btn.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ToggleBtnComponent, TypographyComponent, BtnComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
